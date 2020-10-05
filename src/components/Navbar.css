@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   flex: 1;
-  padding: 10px;
+  padding: 14px;
   background-color: #55374f;
   align-items: center;
   justify-content: space-between;
@@ -10,6 +10,7 @@
   font-size: 16px;
   font-style: bold;
   color: white;
+  font-family: "Nunito", sans-serif;
 }
 
 .navbar__right a {
@@ -18,7 +19,9 @@
   flex: 1;
   justify-content: space-between;
   align-items: center;
+  font-style: bold;
   font-size: 12px;
+  font-weight: 500;
   margin-left: 20px;
   color: white;
   text-decoration: inherit;
@@ -29,17 +32,21 @@
   font-style: bold;
 }
 .search {
-  margin-left: 20px;
-  margin-right: 20px;
-  width: fit-content;
-  height: 4vh;
+  margin-left: 10px;
+  width: 25px;
+  padding: 2px;
+  height: 25px;
   background-color: whitesmoke;
   border-radius: 14px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
+.search img {
+  width: 20px;
+  height: 15px;
+  margin-left: 2px;
+}
 .search input {
   border: none;
   outline: none;
@@ -57,4 +64,9 @@
 
 .input {
   text-decoration: inherit;
+}
+
+.navbar__center {
+  display: flex;
+  flex: 1;
 }
