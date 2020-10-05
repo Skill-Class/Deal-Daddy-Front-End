@@ -5,14 +5,20 @@ import "../components/Navbar.css";
 import usericon from "../user.svg";
 import wishlisticon from "../wishlist.svg";
 import bagicon from "../bag.svg";
+import { useHistory } from "react-router-dom";
 
 function Navbar() {
+  const history = useHistory();
+
+  const handleUserIconOnClick = () => {
+    history.push("/Login");
+  };
   return (
     <div className="navbar">
       <div className="narvbar__left">{/* <h2>DD</h2> */}</div>
       <div className="navbar__center">
         <div className="search">
-          <img src={usericon} alt="user icon" />
+          <img src={usericon} alt="user icon" onClick={handleUserIconOnClick} />
         </div>
         <div className="search">
           <img src={wishlisticon} alt="wishlist icon" />

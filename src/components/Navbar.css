@@ -47,6 +47,9 @@
   height: 15px;
   margin-left: 2px;
 }
+.search :hover {
+  cursor: pointer;
+}
 .search input {
   border: none;
   outline: none;

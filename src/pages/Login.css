@@ -1,23 +1,12 @@
-.login__body {
+.login {
   height: 60vh; /* Magic here */
   display: flex;
-  padding: 20px;
-  background-color: #f5f5f5;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  background-color: #f5f5f5;
   font-family: "Nunito", sans-serif;
 }
 
-.login__bodyRight {
-  /* background-color: red; */
-  flex: 1;
-  margin-left: 40px;
-  padding: 20px;
-  max-height: 50vh;
-  height: 50vh;
-  align-items: center;
-  justify-content: space-between;
-}
 .load__formBody h1 {
   font-size: 40px;
   /* color: "#797a7e"; */
@@ -47,8 +36,8 @@
 }
 
 .login button:hover {
-  background-color: #72496a;
-  color: #edf1f4;
+  background-color: #6d4e67;
+  color: #f5f5f5;
 }
 
 .login p {

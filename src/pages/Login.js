@@ -13,9 +13,9 @@ function Login() {
     history.push("/Register");
   };
   return (
-    <div className="login">
+    <div>
       <Navbar />
-      <div className="login__body">
+      <div className="login">
         <div className="load__formBody">
           <h1> SIGN IN</h1>
           <h2>Email Address</h2>
@@ -58,7 +58,6 @@ function Login() {
           <p>Don't have an account yet ?</p>
           <h4 onClick={handleClick}>Create one</h4>
         </div>
-        <div className="login__bodyRight">{/* <h1> I am right</h1> */}</div>
       </div>
     </div>
   );
