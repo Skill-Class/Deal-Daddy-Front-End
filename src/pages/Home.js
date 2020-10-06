@@ -2,9 +2,12 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import "../pages/Home.css";
 import Grid from "@material-ui/core/Grid";
+import Footer from "../components/Footer";
+import NavbarOne from "../components/NavbarOne";
 function Home() {
   return (
     <div className="home">
+      {/* <NavbarOne /> */}
       <Navbar />
       <div className="home__body">
         <center>
@@ -57,9 +60,24 @@ function Home() {
               </Grid>
             </div>
           </div>
+          <div className="home__dealsOfTheDay">
+            <h1>EXPLORE TOP BRANDS</h1>
+            <div className="hdotd__img">
+              <Grid container spacing={3}>
+                <Grid item xs={6}>
+                  <img src="https://images.bewakoof.com/uploads/grid/app/bewakoof-safety-essential-protection-care-online-shopping-BANNER-1597920576.jpg" />
+                </Grid>
+                <Grid item xs={6}>
+                  <img src="https://images.bewakoof.com/uploads/grid/app/bewakoof-safety-essential-protection-care-online-shopping-BANNER-1597920576.jpg" />
+                </Grid>
+              </Grid>
+            </div>
+          </div>
+          <img src="https://images.bewakoof.com/uploads/grid/app/Brand-Trust-desktop-underslider-1592992663.jpg" />
           <img src="https://assets.myntassets.com/w_980,c_limit,fl_progressive,dpr_2.0/assets/images/2020/8/14/563014d8-2c85-495f-9b61-9b4ae4ea09b41597417752779-Freecharge_desktop-strips.jpg" />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }

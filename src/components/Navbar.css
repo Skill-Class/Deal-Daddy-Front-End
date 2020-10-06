@@ -1,7 +1,7 @@
 .navbar {
   display: flex;
   flex: 1;
-  padding: 14px;
+  padding: 10px;
   background-color: #55374f;
   align-items: center;
   justify-content: space-between;
@@ -13,6 +13,12 @@
   font-family: "Nunito", sans-serif;
 }
 
+.combineNavbar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .navbar__right a {
   font-family: "Nunito", sans-serif;
   margin-left: 20px;
@@ -21,8 +27,8 @@
   align-items: center;
   font-style: bold;
   font-size: 12px;
-  font-weight: 500;
-  margin-left: 20px;
+  font-weight: 600;
+  margin-left: 30px;
   color: white;
   text-decoration: inherit;
 }

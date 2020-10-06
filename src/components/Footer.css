@@ -1,0 +1,22 @@
+.footer {
+  padding: 40px;
+  margin-top: 20px;
+  background-color: #f5f5f5;
+}
+
+.footer h1 {
+  color: #6d4e67;
+  font-size: 16px;
+  font-style: bold;
+  font-weight: 550;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer p {
+  color: gray;
+  font-size: 12px;
+  margin-top: 5px;
+  font-style: normal;
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
