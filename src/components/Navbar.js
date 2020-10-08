@@ -35,7 +35,7 @@ function Navbar() {
           </div>
         </div>
         <div className="navbar__right">
-          <Link to="/home">MEN</Link>
+          <Link to="/men">MEN</Link>
           <Link to="/login">WOMEN</Link>
           <Link to="/home">KIDS</Link>
           <Link to="/home">LIVING</Link>

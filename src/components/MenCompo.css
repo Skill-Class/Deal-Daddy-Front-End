@@ -1,0 +1,43 @@
+.menCompo {
+  background-color: #f5f5f5;
+  padding: 10px;
+  flex: 1;
+  align-items: center;
+  align-content: space-between;
+}
+.menCompo:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.menCompo img {
+  height: 45vh;
+  width: 100%;
+  /* background-color: red; */
+}
+
+.menCompo h3 {
+  font-size: 16px;
+  font-style: bold;
+  color: black;
+  font-family: "Nunito", sans-serif;
+  margin-top: 10px;
+}
+.price_tag {
+  display: flex;
+  /* margin-left: 20px; */
+}
+
+.menCompo p {
+  font-size: 12px;
+  font-style: bold;
+  color: black;
+  font-family: "Nunito", sans-serif;
+}
+.menCompo h5 {
+  font-size: 12px;
+  font-style: bold;
+  color: black;
+  margin-top: 10px;
+  font-family: "Nunito", sans-serif;
+}
